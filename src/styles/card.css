@@ -1,0 +1,44 @@
+.card-short-info-container, .card-short-info-container-sm {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.card-wrap {
+    width: 225px;
+    margin: 0 20px 20px 20px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+.card-short-info-container-sm .card-wrap {
+    width: 170px;
+    margin: 0 15px 15px 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 0;
+}
+
+.card-short-info-container-sm .card-title {
+    font-size: 1rem;
+}
+
+.card-short-info:hover {
+    color: var(--main-color);
+}
+
+.card-wrap-width-max {
+    width: fit-content;
+}
+
+.card-wrap-width-max .card {
+    padding: 20px;
+}

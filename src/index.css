@@ -1,0 +1,40 @@
+@import "./styles/card.css";
+@import "./styles/info.css";
+@import "./styles/navbar.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --main-color: #343A40;
+  --first-color: #009cbf;
+  --second-color: #e78200;
+}
+
+body * {
+  color: var(--main-color)
+}
+
+.logo-image {
+  width: 150px;
+}
+
+.cursor:hover {
+  cursor: pointer;
+}
+
+img {
+  object-fit: contain;
+}
+
+.page {
+  margin-top: 5rem;
+}
+
+.form-group {
+  position: relative;
+}
